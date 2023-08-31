@@ -1,0 +1,4 @@
+# This file is only needed due to VSHaxe being confused because the main build.hxml file is not in the root of the project directory
+--class-path launcher/src
+--main Main
+--cpp launcher/bin

@@ -1,0 +1,10 @@
+#name libremc
+#version 0.1.0
+
+#os linux,windows
+#arch amd64
+
+// TODO
+#test_command
+
+haxe launcher/build.hxml

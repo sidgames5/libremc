@@ -1,3 +1,3 @@
-# LibreMC
+# libreMC
 
 LibreMC is a lightweight launcher for Minecraft: Java Edition.

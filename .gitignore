@@ -1,0 +1,5 @@
+launcher/bin
+
+**/*.pyc
+**/*.hash
+**/*.exe

@@ -1,0 +1,3 @@
+--class-path launcher/src
+--main Main
+--cpp launcher/bin
