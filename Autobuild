@@ -4,7 +4,6 @@
 #os linux,windows
 #arch amd64
 
-// TODO
-#test_command
+#test_command python gui/main.py
 
 haxe launcher/build.hxml
