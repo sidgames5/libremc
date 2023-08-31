@@ -18,14 +18,14 @@ class Main {
 
 		var launchcommand = 'java -Xms${instance.minmem}M -Xmx${instance.maxmem}M -Djava.library.path=${Path.addTrailingSlash(instance.nativespath)} -cp "minecraft.jar;lwjgl.jar;lwjgl_util.jar" net.minecraft.client.Minecraft';
 
-		launchcommand += '--version ${instance.mcversion}';
-		launchcommand += '--gameDir ${instance.instancepath}';
-		launchcommand += '--assetsDir ${cfg.assetpath}';
-		launchcommand += '--assetIndex ${cfg.assetindex}';
-		launchcommand += '--accessToken ${cfg.accounts[cfg.activeAccount].token}';
-		launchcommand += '--uuid ${cfg.accounts[cfg.activeAccount].uuid}';
-		launchcommand += '--userType msa';
-		launchcommand += '--versionType release';
-		launchcommand += '--username ${cfg.accounts[cfg.activeAccount].username}';
+		launchcommand += ' --version ${instance.mcversion}';
+		launchcommand += ' --gameDir ${instance.instancepath}';
+		launchcommand += ' --assetsDir ${cfg.assetpath}';
+		launchcommand += ' --assetIndex ${cfg.assetindex}';
+		launchcommand += ' --accessToken ${cfg.accounts[cfg.activeAccount].token}';
+		launchcommand += ' --uuid ${cfg.accounts[cfg.activeAccount].uuid}';
+		launchcommand += ' --userType msa';
+		launchcommand += ' --versionType release';
+		launchcommand += ' --username ${cfg.accounts[cfg.activeAccount].username}';
 	}
 }
